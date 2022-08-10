@@ -307,16 +307,22 @@ footer {
 }
 
 .social-icons {
-    /* padding: 30px; */
+    padding: 30px 24px;
     text-align: center;
+    line-height: 30px;
 }
 
 .social-icons a {
-    color: rgb(56, 111, 75);
+    color: rgb(0, 0, 0);
     line-height: 30px;
     font-size: 30px;
-    margin: 0 15px;
+    margin: 0 0px;
     text-decoration: none;
+
+}
+
+.social-icons a:hover {
+    color: rgb(7, 95, 56);
 
 }
 

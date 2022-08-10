@@ -197,7 +197,7 @@ function initValik() {
                         el: '.hs_counter .current',
                         type: 'fraction',
                         renderFraction: function (currentClass) {
-                            return '<span class="' + currentClass + '"></span>' + '<span class="csep">of</span>' + '<span class="j2total">' + totalSlides2 + '</span>';
+                            return '<span class="' + currentClass + '"></span>' + '<span class="csep">/</span>' + '<span class="j2total">' + totalSlides2 + '</span>';
                         }
                     },
                     centeredSlides: false,

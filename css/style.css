@@ -60,6 +60,7 @@ h2 {
 
 h3 {
     font-size: 30px;
+    letter-spacing: 1px;
 }
 
 h4 {
@@ -117,7 +118,7 @@ blockquote p {
     top: 0;
     right: 0;
     bottom: 0;
-
+    background: linear-gradient(45deg, #ffffff 20%, #b8b8b8 100%)
 }
 
 .main-loader-wrap {
@@ -889,7 +890,7 @@ blockquote p {
     background: #fff;
     line-height: 50px;
     z-index: 5;
-    color: #000;
+    color: #075f38;
     font-size: 12px;
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear;
@@ -2069,11 +2070,11 @@ blockquote p {
 .share-title {
     float: left;
     font-size: 13px;
-    font-family: 'Playfair Display', cursive;
+    font-family: 'Mukta', ;
     font-weight: 600;
     text-align: left;
     position: relative;
-    margin: 15px 20px 0 0;
+    margin: 15px 20px 0 20px;
 }
 
 .ver-share .share-title {
@@ -2087,7 +2088,7 @@ blockquote p {
     top: -10px;
     height: 2px;
     width: 20px;
-    background: #000;
+    background: #f58220;
 }
 
 .ver-share .share-container {
@@ -3463,7 +3464,7 @@ section.single-content-section {
     font-size: 24px;
     font-weight: 800;
     text-align: left;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Mukta', serif;
     position: relative;
 }
 
@@ -3473,7 +3474,7 @@ section.single-content-section {
     bottom: -10px;
     width: 50px;
     height: 2px;
-    background: #000;
+    background: #f58220;
     left: 0;
 }
 
@@ -3658,7 +3659,7 @@ section.single-content-section {
     float: left;
     text-align: left;
     padding: 9px 0 0 0;
-    line-height: 15px;
+
     color: #000;
     font-size: 12px;
     /* text-transform: uppercase; */
@@ -4018,7 +4019,7 @@ section.single-content-section {
 
 .team-item-title span {
     margin-right: 10px;
-    color: rgba(255, 255, 255, 0.7);
+    /* color: rgba(255, 255, 255, 0.7); */
 }
 
 /*------  contact------------------------------------------------------*/
@@ -4162,9 +4163,9 @@ section.single-content-section {
 .contact-details-title h2 {
     font-size: 20px;
     text-align: left;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', serif;
     color: #000;
-    font-weight: 800;
+    font-weight: 500;
     position: relative;
     padding-bottom: 10px;
 }
@@ -4176,7 +4177,7 @@ section.single-content-section {
     top: -10px;
     height: 2px;
     width: 20px;
-    background: #000;
+    background: #f6871f;
 }
 
 .contact-details-wrap {
