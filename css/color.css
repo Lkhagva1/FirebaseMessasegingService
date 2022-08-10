@@ -1,0 +1,50 @@
+.nav-holder nav li a:before,
+.sb-button span,
+.color-bg,
+.sb-button span:before,
+.hero-dec_top:before,
+.hero-link span:before,
+.hero-contact_btn span:before,
+.gallery-filters a:before,
+.footer-social li a:before,
+.single-btn:before,
+.grid-item-holder_title h3:before,
+.pag-style .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.post-item_content h3:after,
+.blog-btn-filter:before,
+.pr-tags:before,
+.slider-controls.sc_sin:before,
+.prs_dec:before,
+.custom-form button:before,
+.boxed-container-wrap:after,
+.error-container:before,
+.serv-list:before,
+.team-social li a:hover,
+.tc-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active:before,
+.client-list:after,
+.element-item:before,
+.hero-carousel_project-title h3:before,
+.hc-pag .swiper-pagination-bullet.swiper-pagination-bullet-active:before,
+.scroller,
+.hero-btn:before,
+.fs-slider_align_title h5:before,
+.slide-progress,
+.categories_widget_title:before,
+.pl-spinner:after,
+.swiper-scrollbar-drag,
+.loading-text-container:before {
+	background: #F2811D;
+}
+
+#footer-twiit p.tweet a:hover,
+.share-icon:hover,
+.leaflet-touch .leaflet-bar a,
+.blog-search-wrap button,
+.post-opt li i,
+.pagination a:hover {
+	color: #f2811d;
+}
+
+.resum-header:after {
+	border-color: #f2811d;
+}
