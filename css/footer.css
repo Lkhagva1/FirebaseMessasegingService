@@ -126,7 +126,16 @@ footer {
 /* Footer left */
 
 .footer-distributed .footer-left {
-    width: 40%;
+    margin-left: -100px;
+    width: 27%;
+}
+
+@media (max-width:880px) {
+    .footer-distributed .footer-left {
+        margin-left: 0px;
+        width: 27%;
+    }
+
 }
 
 /* The company logo */
@@ -227,6 +236,7 @@ footer {
 
 .footer-distributed .footer-right {
     width: 20%;
+
 }
 
 .footer-distributed .footer-company-about {
@@ -293,18 +303,11 @@ footer {
 
 }
 
-@media only screen and (max-width:790px) {
-    .container {}
 
-    .to-top-btn {
-        display: none;
-    }
-
-    /* .container-footer>.footer-row>img {
+/* .container-footer>.footer-row>img {
 
         width: 25%;
     } */
-}
 
 .social-icons {
     padding: 30px 24px;
