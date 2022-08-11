@@ -118,7 +118,7 @@ blockquote p {
     top: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(45deg, #fff, #e6e6e6)
+    background: linear-gradient(45deg, #fff, #ccc)
 }
 
 .main-loader-wrap {
@@ -140,7 +140,7 @@ blockquote p {
     right: 15px;
     width: 30px;
     height: 30px;
-    top: 5px;
+    top: 0px;
     line-height: 30px;
     font-size: 15px;
     color: rgb(7, 104, 63);
@@ -151,9 +151,9 @@ blockquote p {
     height: 30px;
     line-height: 30px;
     float: right;
-    top: 0px;
-    bottom: 80px;
-    font-size: 30px;
+    top: 10px;
+    bottom: 40px;
+    font-size: 20px;
     color: rgb(7, 97, 59);
 }
 
