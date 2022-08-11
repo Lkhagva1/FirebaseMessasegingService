@@ -118,7 +118,7 @@ blockquote p {
     top: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(45deg, #ffffff 20%, #b8b8b8 100%)
+    background: linear-gradient(45deg, #fff, #e6e6e6)
 }
 
 .main-loader-wrap {
