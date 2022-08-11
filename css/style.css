@@ -3622,8 +3622,8 @@ section.single-content-section {
 .services-item h4 {
     font-size: 18px;
     text-align: left;
-    font-family: 'Playfair Display', serif;
-    font-weight: 800;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 600;
     padding-bottom: 20px;
 }
 
@@ -3659,7 +3659,7 @@ section.single-content-section {
     float: left;
     text-align: left;
     padding: 9px 0 0 0;
-
+    letter-spacing: 0.5px;
     color: #000;
     font-size: 12px;
     /* text-transform: uppercase; */
@@ -4163,9 +4163,9 @@ section.single-content-section {
 .contact-details-title h2 {
     font-size: 20px;
     text-align: left;
-    font-family: 'Poppins', serif;
+    font-family: 'Mukta', sans-serif;
     color: #000;
-    font-weight: 500;
+    font-weight: 600;
     position: relative;
     padding-bottom: 10px;
 }
@@ -4627,7 +4627,7 @@ section.single-content-section {
     position: relative;
     font-size: 12px;
     color: #fff;
-    background: rgb(7, 104, 63);
+    background: rgb(7, 120, 63);
 }
 
 .pagination a.current-page,
