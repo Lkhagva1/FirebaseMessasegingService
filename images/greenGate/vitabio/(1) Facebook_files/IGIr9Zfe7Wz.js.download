@@ -1,0 +1,7 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("XBizSuiteControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/latest/{?*rest}",Object.freeze({auto_open_promote:!1,launch_onboarding:!1,partnership_messages:!1}),void 0);b=a;g["default"]=b}),98);
+__d("XCometPageVanityControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/{vanity}/",Object.freeze({ref:""}),void 0);b=a;g["default"]=b}),98);
+__d("XCometPageVanityNotificationsControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/{vanity}/notifications/",Object.freeze({ref:""}),void 0);b=a;g["default"]=b}),98);
+__d("XMediaManagerControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/creatorstudio/{?*tab_route}/",Object.freeze({override_mweb_check:!1,open_bulk_upload_panel:!1,mta_onboarding_includes_brand_collabs:!1,mta_onboarding_deferred_payout:!1,open_videolist_creation_dialogue:!1,open_basic_post_composer:!1,open_igtv_uploader:!1,open_fan_subs_benefits_editor:!1,open_fubs_add_promo_video_side_tab:!1,open_boost_post_dialog:!1,open_promo_dialog:!1,show_live_break_custom_video_tray:!1,show_fan_subs_incentives_best_practices:!1}),void 0);b=a;g["default"]=b}),98);
+__d("PagesCometHomeAdminPageSelectorQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="4942366535852873"}),null);

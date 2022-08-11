@@ -651,10 +651,10 @@ function initValik() {
     if ($("#map-single").length > 0) {
         var latlog = $('#map-single').data('latlog'),
             popupTextit = $('#map-single').data('popuptext'),
-            map = L.map('map-single').setView(latlog, 11);
+            map = L.map('map-single').setView(latlog, 16);
         L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_labels_under/{z}/{x}/{y}{r}.png').addTo(map);
         if ($(window).width() > 1064) {
-            var offset = map.getSize().x * 0.15;
+            var offset = map.getSize().x * 0.1;
             map.panBy(new L.Point(-offset, 0), {
                 animate: false
             });

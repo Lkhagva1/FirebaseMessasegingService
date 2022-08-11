@@ -118,11 +118,15 @@ blockquote p {
     top: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(45deg, #fff, #ccc)
+    background: #fff url(/images/greenGate/ar/arinn_font-1.png) repeat
 }
 
 .main-loader-wrap {
     z-index: 10001;
+}
+
+.loading-text-container img {
+    margin-top: -47px;
 }
 
 .loader_count_wrap {
@@ -131,18 +135,18 @@ blockquote p {
     right: 20px;
     font-weight: 400;
     z-index: 50;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Mukta', sans-serif;
 }
 
 .loader_count_wrap:before {
     content: '%';
     position: absolute;
-    right: 15px;
+    right: -10px;
     width: 30px;
     height: 30px;
     top: 0px;
     line-height: 30px;
-    font-size: 15px;
+    font-size: 21px;
     color: rgb(7, 104, 63);
 }
 
@@ -153,7 +157,7 @@ blockquote p {
     float: right;
     top: 10px;
     bottom: 40px;
-    font-size: 20px;
+    font-size: 47px;
     color: rgb(7, 97, 59);
 }
 
@@ -594,7 +598,8 @@ blockquote p {
 
 .logo-holder img {
     width: 100%;
-    height: 100px;
+    height: 60px;
+    margin-top: 15px;
 }
 
 /* ------Navigation------------------------------------------------------------ */
@@ -4194,7 +4199,7 @@ section.single-content-section {
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 80px 40px;
+    padding: 45px 40px;
     overflow-y: scroll;
     z-index: 21;
     scrollbar-width: none;
@@ -4238,9 +4243,10 @@ section.single-content-section {
 
 .custom-form input::-webkit-input-placeholder,
 .custom-form textarea::-webkit-input-placeholder {
-    color: #000;
-    font-weight: 600;
-    font-size: 11px;
+    color: #707070;
+    font-weight: 500;
+    font-size: 12px;
+    top: 3px;
     position: relative;
     font-family: 'Mukta', sans-serif;
 }
@@ -4248,17 +4254,17 @@ section.single-content-section {
 .custom-form input:-moz-placeholder,
 .custom-form textarea:-moz-placeholder {
     color: #fff;
-    font-weight: 600;
-    font-size: 10px;
+    font-weight: 500;
+    font-size: 9px;
     text-transform: uppercase;
     position: relative;
     font-family: 'Mukta', sans-serif;
 }
 
 .custom-form textarea {
-    height: 150px;
+    height: 120px;
     resize: none;
-    padding: 35px 30px 25px 30px;
+
     -webkit-appearance: none;
 }
 
