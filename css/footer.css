@@ -81,8 +81,7 @@ footer {
 }
 
 .copy_cc {
-    background: #075933;
-    background: #067340;
+    background-image: linear-gradient(to right, rgba(6, 115, 64, 1), rgba(42, 111, 37, 1), rgba(6, 115, 64, 1), #faad38);
     color: #fff;
     padding: 16px 0;
 }
@@ -95,11 +94,28 @@ footer {
     width: 10%;
 }
 
-.footer-row img {
-    max-width: 50%;
-    height: 20px;
-    vertical-align: middle;
+.row img {
+    margin-right: -53px;
 }
+
+@media (max-width:880px) {
+    .row img {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width:880px) {
+    .row .fot {
+        left: 10px;
+    }
+}
+
+.fot {
+    left: -60px;
+}
+
+
+
 
 .footer-row {
     margin-left: -15px;
