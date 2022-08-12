@@ -37,6 +37,17 @@ body {
     text-align: center;
 }
 
+.ar_hee {
+    position: absolute;
+    width: 1100px;
+    height: auto;
+    top: 34px;
+    left: 44px;
+    z-index: 1;
+    left: 50%;
+    margin-left: -550px;
+}
+
 @-o-viewport {
     width: device-width;
 }
@@ -107,8 +118,9 @@ blockquote:before {
 }
 
 blockquote p {
+    font-family: 'Mukta' sans-serif;
     font-style: italic;
-    font-size: 13px;
+    font-size: 18px;
     color: #333;
 }
 
@@ -3241,7 +3253,7 @@ blockquote p {
     position: relative;
     width: 100%;
     height: 105px;
-    line-height: 99px;
+    line-height: 106px;
     z-index: 10;
 }
 
@@ -4151,10 +4163,10 @@ section.single-content-section {
     float: left;
     width: 100%;
     font-weight: 600;
-    letter-spacing: 1.5px;
-    word-spacing: 0;
+    line-height: 20px;
+    letter-spacing: 1px;
     margin-bottom: 12px;
-    font-size: 12px;
+    font-size: 10px;
     color: #000;
 }
 
@@ -4248,12 +4260,16 @@ section.single-content-section {
     -webkit-appearance: none;
 }
 
+.custom-form input::-webkit-input-placeholder {
+    font-size: 12px !important;
+}
+
 .custom-form input::-webkit-input-placeholder,
 .custom-form textarea::-webkit-input-placeholder {
     color: #707070;
     font-weight: 500;
-    font-size: 12px;
-    top: 3px;
+    font-size: 10px;
+    top: 5px;
     position: relative;
     font-family: 'Mukta', sans-serif;
 }
@@ -4271,7 +4287,6 @@ section.single-content-section {
 .custom-form textarea {
     height: 120px;
     resize: none;
-
     -webkit-appearance: none;
 }
 
@@ -4668,6 +4683,10 @@ section.single-content-section {
     padding-bottom: 10px;
 }
 
+.single-post_opt {
+    font-family: 'Mukta' sans-serif;
+}
+
 .single-post_opt li {
     float: left;
     /* width: 50%; */
@@ -4685,11 +4704,13 @@ section.single-content-section {
 .sinlge-post_opt li i {
     font-weight: 100 !important;
     font-size: 11px;
+
 }
 
 .single-post_opt ul li {
     display: flexbox;
     position: relative;
+
     /* margin: 0 0 -1px; */
     padding: 11px 20px 11px 14px;
     font-size: 14px;
@@ -4701,8 +4722,9 @@ section.single-content-section {
 .single-post_opt li a {
     margin-right: 10px;
     color: #666;
+    font-family: 'Mukta', sans-serif;
     text-align: left;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     /* text-transform: uppercase */
 }
@@ -5373,6 +5395,17 @@ section.single-content-section {
 }
 
 @media only screen and (max-width: 768px) {
+    .ar_hee {
+        position: absolute;
+        width: 95%;
+        height: auto;
+        top: 34px;
+        left: 44px;
+        z-index: 11;
+        left: 2.5%;
+        margin-left: -550px;
+    }
+
     .sidebar-wrap {
         right: 30px;
         width: auto;

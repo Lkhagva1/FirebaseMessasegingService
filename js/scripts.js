@@ -19,7 +19,7 @@ function initValik() {
             opacity: 0,
 
             ease: Expo.easeInOut,
-            delay: 1.3,
+            delay: 0.9,
             onComplete: function () {
                 $(".main-loader-wrap").fadeOut(800);
             }
