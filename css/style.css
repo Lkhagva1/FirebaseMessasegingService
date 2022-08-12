@@ -4714,7 +4714,7 @@ section.single-content-section {
     /* margin: 0 0 -1px; */
     padding: 11px 20px 11px 14px;
     font-size: 14px;
-    border: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
     color: #666;
 }
 
@@ -5394,6 +5394,7 @@ section.single-content-section {
     }
 }
 
+
 @media only screen and (max-width: 768px) {
     .ar_hee {
         position: absolute;
@@ -5404,6 +5405,14 @@ section.single-content-section {
         z-index: 11;
         left: 2.5%;
         margin-left: -550px;
+    }
+
+    .dark-bg-wrap.fl-wrap img {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        bottom: 0;
+        left: 0px;
     }
 
     .sidebar-wrap {

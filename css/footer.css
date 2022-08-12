@@ -94,28 +94,28 @@ footer {
     width: 10%;
 }
 
-.row img {
-    margin-right: -53px;
-}
-
-@media (max-width:880px) {
-    .row img {
-        margin-right: 10px;
-    }
-}
-
-@media (max-width:880px) {
-    .row .fot {
-        left: 10px;
-    }
+.develop {
+    float: right;
 }
 
 .fot {
-    left: -60px;
+    text-transform: uppercase;
+    float: left;
+    text-align: left;
 }
 
+@media (max-width:880px) {
+    .develop {
+        float: right;
+        margin-right: 20px;
+    }
 
-
+    .fot {
+        text-transform: uppercase;
+        float: left;
+        text-align: left;
+    }
+}
 
 .footer-row {
     margin-left: -15px;
