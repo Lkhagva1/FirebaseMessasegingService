@@ -5407,13 +5407,13 @@ section.single-content-section {
         margin-left: -550px;
     }
 
-    .dark-bg-wrap.fl-wrap img {
+    /* .dark-bg-wrap.fl-wrap img {
         position: absolute;
         width: 100%;
         height: auto;
         bottom: 0;
         left: 0px;
-    }
+    } */
 
     .sidebar-wrap {
         right: 30px;
