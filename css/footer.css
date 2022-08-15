@@ -130,6 +130,7 @@ footer {
     text-align: left;
     font: bold 16px sans-serif;
     padding: 55px 50px;
+    margin-left: 0px;
 }
 
 .footer-distributed .footer-left,
@@ -360,7 +361,7 @@ footer {
 }
 
 .social-icons a:hover i {
-    box-shadow: 0px 0px 150px #000000;
+    box-shadow: 0px 0px 150px rgb(204, 255, 0);
     z-index: 2;
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1.5);
@@ -370,4 +371,8 @@ footer {
     -moz-transform: scale(1.5);
     transition: all 200ms ease-in;
     transform: scale(1.5);
+}
+
+.social_icon_a a:hover {
+    color: #f8981d !important;
 }

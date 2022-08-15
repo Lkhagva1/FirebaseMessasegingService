@@ -37,6 +37,12 @@ body {
     text-align: center;
 }
 
+.social_icon {
+    position: fixed;
+    width: 70%;
+    top: 570px;
+}
+
 .ar_hee {
     position: absolute;
     width: 1100px;
@@ -5394,6 +5400,11 @@ section.single-content-section {
     }
 }
 
+@media(min-width:1064px) {
+    .col-md-1 {
+        width: 5.33333333% !important;
+    }
+}
 
 @media only screen and (max-width: 768px) {
     .ar_hee {
