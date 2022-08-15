@@ -336,7 +336,7 @@ footer {
     color: rgb(0, 0, 0);
     line-height: 30px;
     font-size: 30px;
-    margin: 0 0px;
+    margin: 0 3px;
     text-decoration: none;
 
 }
@@ -371,14 +371,6 @@ footer {
     -moz-transform: scale(1.5);
     transition: all 200ms ease-in;
     transform: scale(1.5);
-}
-
-.social_icon {
-    z-index: 99;
-}
-
-.social_icon_a {
-    margin-left: 4px !important;
 }
 
 .social_icon_a a i {
