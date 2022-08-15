@@ -373,6 +373,14 @@ footer {
     transform: scale(1.5);
 }
 
+.social_icon {
+    z-index: 99;
+}
+
+.social_icon_a {
+    margin-left: 4px !important;
+}
+
 .social_icon_a a i {
     color: #fff;
     line-height: 30px;
