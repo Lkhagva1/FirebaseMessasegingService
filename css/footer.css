@@ -373,6 +373,14 @@ footer {
     transform: scale(1.5);
 }
 
+.social_icon_a a i {
+    color: #fff;
+    line-height: 30px;
+    font-size: 25px;
+    margin: 0 0px;
+    text-decoration: none;
+}
+
 .social_icon_a a:hover {
     color: #f8981d !important;
 }

@@ -38,9 +38,10 @@ body {
 }
 
 .social_icon {
+    text-align: center;
     position: fixed;
     width: 70%;
-    top: 480px;
+    bottom: 50px;
 }
 
 .ar_hee {
@@ -5402,7 +5403,7 @@ section.single-content-section {
 
 @media(min-width:1064px) {
     .col-md-1 {
-        width: 5.33333333% !important;
+        width: 1.33333333% !important;
     }
 }
 
