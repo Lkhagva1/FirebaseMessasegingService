@@ -3492,9 +3492,9 @@ section.single-content-section {
 
 .colmn-section-title h4 {
     font-size: 24px;
-    font-weight: 800;
+    font-weight: 600;
     text-align: left;
-    font-family: 'Mukta', serif;
+    font-family: 'Mukta', sans-serif;
     position: relative;
 }
 
