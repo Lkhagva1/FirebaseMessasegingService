@@ -381,6 +381,6 @@ footer {
     text-decoration: none;
 }
 
-.social_icon_a a:hover {
+.social_icon_a a i:hover {
     color: #f8981d !important;
 }
