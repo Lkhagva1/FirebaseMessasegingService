@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "142391452429",
+    "project_id": "goodsoil-android",
+    "storage_bucket": "goodsoil-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142391452429:android:9444dc40b899a0545b8644",
+        "android_client_info": {
+          "package_name": "com.globalvision.goodsoil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "142391452429-jk63sj18kra7ctq593g0emp8sh01clef.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_KtOMP71smoNfCWxCAtqDbqzePjevppg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "142391452429-jk63sj18kra7ctq593g0emp8sh01clef.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
